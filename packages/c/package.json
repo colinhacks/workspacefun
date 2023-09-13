@@ -2,5 +2,12 @@
   "name": "c",
   "version": "1.0.0",
   "module": "index.ts",
-  "type": "module"
+  "files": [
+    "index.ts"
+  ],
+  "type": "module",
+  "dependencies": {
+    "b": "workspace:b",
+    "c": "workspace:c"
+  }
 }
